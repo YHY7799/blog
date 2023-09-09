@@ -1,0 +1,93 @@
+
+ar:
+  page_title: "يحيى"
+  titles:
+    home: الرئيسية
+    title: صفحتي
+  navbar:
+    brand: "صفحتي"
+    posts: "المقالات"
+    sign_in: "تسجيل الدخول"
+    sign_up: "تسجيل"
+    sign_out: "تسجيل الخروج"
+    edit_profile: "تعديل الملف الشخصي"
+    new: "جديد"
+  jumbotron:
+    I: "أنا يحيى إسماعيل"
+    cs: "طالب علوم حاسب ومبرمج مواقع"
+    hello: "السلام عليكم ورحمة الله وبركاته؛"
+    please_sign_in: "يرجى تسجيل الدخول لعرض المقالات!"
+  about_me:
+    title: "عني..."
+    content: "اسمي يحيى.  طالب علوم حاسوب ومبرمج مواقع. <br>
+ عملت في الكثير من الوظائف في مختلف المجالالت ولكن أغلبها في مجال الضيافة والمقاهي، وأنا الآن محاسب وأعمل بدوام جزئي كمبرمج مواقع ."
+  intrests:
+    title: "الاهتمامات"
+    content: " الاهتمامات الاهتمامات الاهتمامات"
+  study: !include "<%= render partial: 'partials/study' %>"
+  posts:
+    title: "المقالات"
+    created_by: "تم الإنشاء بواسطة: %{username}"
+    at: "في: %{datetime}"
+  buttons:
+    posts: "المقالات"
+    contact: "للتواصل"
+  post:
+    labels:
+      title: العنوان
+      content: المحتوى
+  titles:
+    editing_post: تحرير المقالة
+  links:
+    show_post: عرض هذه المقالة
+    back_to_posts: العودة إلى المقالات
+  titles:
+    new_post: مقالة جديدة
+  created_by: "تم الإنشاء بواسطة: %{name}"
+  edit: "تعديل"
+  destroy: "حذف"
+  greeting: "مرحبًا %{email}!"
+  password_changed_notification: "نتواصل معك لإبلاغك بأن كلمة المرور الخاصة بك قد تم تغييرها."
+  change_password: "قم بتغيير كلمة المرور"
+  new_password_label: "كلمة المرور الجديدة"
+  minimum_password_length: "(الحد الأدنى %{length} أحرف)"
+  confirm_new_password_label: "تأكيد كلمة المرور الجديدة"
+  change_password_button: "تغيير كلمة المرور"
+  edit_resource: "تعديل %{resource}"
+  waiting_confirmation: "في انتظار التأكيد الحالي ل: %{email}"
+  leave_blank: "اتركه فارغًا إذا لم ترغب في تغييره"
+  minimum_password_length: "الحد الأدنى %{length} أحرف"
+  current_password_notice: "نحتاج إلى كلمة المرور الحالية لتأكيد التغييرات"
+  update_button: "تحديث"
+  cancel_account: "إلغاء حسابي"
+  unhappy_notice: "غير راضٍ؟"
+  cancel_account_button: "إلغاء حسابي"
+  cancel_confirmation: "هل أنت متأكد؟"
+  back_link: "العودة" 
+  sign_up: "التسجيل"
+  minimum_password_length: "الحد الأدنى %{length} أحرف"
+  sign_up_button: "التسجيل"
+  log_in: "تسجيل الدخول"
+  log_in_button: "تسجيل الدخول"
+  log_in_link: "تسجيل الدخول"
+  sign_up_link: "التسجيل"
+  forgot_password_link: "نسيت كلمة المرور؟"
+  resend_confirmation_link: "لم تتلقَّ تعليمات التأكيد؟"
+  resend_unlock_instructions_link: "لم تتلقَّ تعليمات الإلغاء؟"
+  sign_in_with_provider: "تسجيل الدخول باستخدام %{provider}"
+  footer_text: "© 2023 موقعك. جميع الحقوق محفوظة."
+  post:
+    created: "تم إنشاء المقالة بنجاح"
+    updated: "تم التعديل بنجاح"
+    destroyed: "تم الحذف بنجاح"
+  devise:
+    sessions:
+      user:
+        signed_out: تم تسجيل الخروج بنجاح
+        signed_in: "تم تسجيل دخول المستخدم بنجاح"
+        signed_up: "تم إنشاء المستخدم بنجاح"
+      
+  # posts:
+  #   new:
+  #     title: "منشور جديد"
+  #     content: "أدخل محتوى منشورك هنا."

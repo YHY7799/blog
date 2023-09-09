@@ -1,0 +1,11 @@
+<div id="<%= dom_id post %>">
+  <p>
+    <strong><%= t('post.labels.title') %>:</strong>
+    <%= post.title %>
+  </p>
+  <%= image_tag(post.image, class: "image") %>
+  <p>
+    <strong><%= t('post.labels.content') %>:</strong>
+    <%= post.content %>
+  </p>
+</div>

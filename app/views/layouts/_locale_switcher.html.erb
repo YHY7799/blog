@@ -1,0 +1,7 @@
+<div class="locale-switcher" style="padding: 20px;">
+  <% if I18n.locale == :ar %>
+    <%= link_to "English", url_for(locale: :en), class: "btn btn-default btn-xs" %>
+  <% else %>
+    <%= link_to "عربي", url_for(locale: :ar), class: "btn btn-default btn-xs" %>
+  <% end %>
+</div>

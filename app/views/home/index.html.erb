@@ -1,0 +1,23 @@
+<div class="jumbotron" style="background-image: url('<%= asset_path('black.jpg') %>')" style="background-size: cover;
+    background-repeat: no-repeat;">
+  <h2 style="color: white"><%= t('jumbotron.hello') %></h2><br> <h2 style="color: white"><%= t('jumbotron.I') %></h2>
+  <p style="color: white"><%= t('jumbotron.cs') %></p><br>
+  <%= link_to t('buttons.posts'), posts_path, class: "btn btn-primary", style: "margin-left: 10px" %>
+  <%= link_to t('buttons.contact'), "https://www.t.me/@Yhy7799.com", class: "btn btn-success", style: "margin-left: 10px" %>
+
+</div>
+<br>
+<h1 style="text-align:center"><%= t('about_me.title') %></h1>
+
+<div class="jumbotron">
+  <p >
+  <%= t('about_me.content').html_safe %>
+</p><br>
+  <p>
+    <%= render partial: 'home/study' %><br>
+    <img src="<%= asset_path('sunset.jpg') %>" class="img-fluid" alt="Sunset" style="  max-width: 70%; max-height: 70%;">
+</p><br>
+</div>
+
+
+

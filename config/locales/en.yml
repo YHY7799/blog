@@ -1,0 +1,82 @@
+en:
+  page_title: "Yahaya"
+  titles:
+    home: Home
+  navbar:
+    brand: "Blog"
+    posts: "Posts"
+    sign_in: "Sign in"
+    sign_up: "Sign up"
+    sign_out: "Sign out"
+    edit_profile: "Edit profile"
+    new: "New"
+  jumbotron:
+    I: "I am Yahya Ismail"
+    cs: "software developer and CS student"
+    hello: "Hello world!!!"
+    please_sign_in: "Please sign in to display posts!"
+  about_me:
+    title: "About me"
+    content: "I appolgize, but this section is not translated in English yet, i will work on it in the future, if neccessary you can copy it and translate it.<br> I appreciate it!"
+  intrests:
+    title: "intrests"
+    content: "intrests intrests intrests"
+  study:
+    title: "study"
+    content: "study study study"
+  posts:
+    title: "Posts"
+    created_by: "Created by: %{username}"
+    at: "At: %{datetime}"
+  buttons:
+    posts: "Posts"
+    contact: "contact"
+  post:
+    labels:
+      title: Title
+      content: Content
+  titles:
+    editing_post: Editing post
+  links:
+    show_post: Show this post
+    back_to_posts: Back to posts
+  titles:
+    new_post: New post
+  created_by: "created by: %{name}"
+  edit: "Edit"
+  destroy: "Destroy"
+  greeting: "Hello %{email}!"
+  password_changed_notification: "We're contacting you to notify you that your password has been changed."
+  change_password: "Change your password"
+  new_password_label: "New password"
+  minimum_password_length: "(%{length} characters minimum)"
+  confirm_new_password_label: "Confirm new password"
+  change_password_button: "Change my password"
+  edit_resource: "Edit %{resource}"
+  waiting_confirmation: "Currently waiting confirmation for: %{email}"
+  leave_blank: "leave blank if you don't want to change it"
+  minimum_password_length: "%{length} characters minimum"
+  current_password_notice: "we need your current password to confirm your changes"
+  update_button: "Update"
+  cancel_account: "Cancel my account"
+  unhappy_notice: "Unhappy?"
+  cancel_account_button: "Cancel my account"
+  cancel_confirmation: "Are you sure?"
+  back_link: "Back"
+  sign_up: "Sign up"
+  minimum_password_length: "%{length} characters minimum"
+  sign_up_button: "Sign up"
+  log_in: "Log in"
+  log_in_button: "Log in"
+  log_in_link: "Log in"
+  sign_up_link: "Sign up"
+  forgot_password_link: "Forgot your password?"
+  resend_confirmation_link: "Didn't receive confirmation instructions?"
+  resend_unlock_instructions_link: "Didn't receive unlock instructions?"
+  sign_in_with_provider: "Sign in with %{provider}"
+  footer_text: "© 2023 Your Website. All rights reserved."
+  # posts:
+  #   new:
+  #     title: "New Post"
+  #     content: "Enter your post content here."
+  #   submit: "Create Post"
