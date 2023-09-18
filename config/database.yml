@@ -81,6 +81,8 @@ test:
 #
 production:
   <<: *default
-  database: mysite_production
+  database: mysite
   username: postgres
   password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
+  host: 13.228.225.19
+  port: 5432
