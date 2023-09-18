@@ -86,6 +86,21 @@ ar:
         signed_out: تم تسجيل الخروج بنجاح
         signed_in: "تم تسجيل دخول المستخدم بنجاح"
         signed_up: "تم إنشاء المستخدم بنجاح"
+  errors:
+    messages:
+      not_saved: "لم يتم الحفظ"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "الاسم فارغ"
+          password_confirmation:
+            confirmation: "تأكيد كلمة المرور غير صحيح"
+      messages:
+        blank: "فارغ"
+        confirmation: "تأكيد غير صحيح"
       
   # posts:
   #   new:
