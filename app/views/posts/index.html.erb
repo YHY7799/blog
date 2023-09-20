@@ -3,7 +3,7 @@
 
   <div class="jumbotron" id="posts">
     <% @posts.each do |post| %>
-      <h2><%= post.title %></h2>
+        <h2 style="text-align: center;"><%= post.title %></h2>
       <% if post.image.attached? %>
         <%= link_to(post_path(post)) do %>
           <%= image_tag(post.image, class: "image") %>

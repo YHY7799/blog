@@ -12,10 +12,10 @@ module Personal
     config.load_defaults 7.0
 
     # Permitted locales available for the application
-    I18n.available_locales = [:en, :ar]
+    I18n.available_locales = [:ar, :en]
 
     # Set default locale to something other than :en
-    I18n.default_locale = :en
+    I18n.default_locale = :ar
 
     # Configuration for the application, engines, and railties goes here.
     #

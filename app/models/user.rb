@@ -4,5 +4,8 @@ class User < ApplicationRecord
   validates :name, presence: true
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
+         enum role: [:user, :superuser] # Add additional roles as needed
+
+        
 
 end
