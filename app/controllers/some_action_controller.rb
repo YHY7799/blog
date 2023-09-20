@@ -3,7 +3,7 @@ class SomeActionController < ApplicationController
     before_action :set_visitor_info
   
     def index
-        if current_user && current_user.superuser?
+      # if current_user && current_user.superuser?
             if user_signed_in?
                 visitor_id = current_user.email
             else
@@ -25,10 +25,10 @@ class SomeActionController < ApplicationController
         connection_speed: connection_speed,
         user_authenticated: user_authenticated?
     }
-    else
-        # Handle unauthorized access for non-superusers
-        redirect_to root_path, alert: "You are not authorized to access this page."
-    end
+      # else
+      #   # Handle unauthorized access for non-superusers
+      #   redirect_to root_path, alert: "You are not authorized to access this page."
+      # end
     end
   
     def set_visitor_info
