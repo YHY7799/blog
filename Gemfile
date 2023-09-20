@@ -44,6 +44,7 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 gem 'devise', '~> 4.9', '>= 4.9.2'
 gem 'useragent'
+gem 'ruby-vips'
 
 
 
